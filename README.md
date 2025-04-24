@@ -1,12 +1,6 @@
 # crud-fast-api
 This repository contains a FastAPI-based microservice for managing user data. It provides a RESTful API with CRUD (Create, Read, Update, Delete) operations for users. The application is designed to be modular, scalable, and easy to integrate with other services.
 
----
-
-### **Repository Description**
-
-This repository contains a FastAPI-based microservice for managing user data. It provides a RESTful API with CRUD (Create, Read, Update, Delete) operations for users. The application is designed to be modular, scalable, and easy to integrate with other services.
-
 #### **Key Features**
 - **Create User**: Add a new user to the database.
 - **Read User**: Retrieve user details by ID or fetch a list of users with pagination.
@@ -31,7 +25,7 @@ The application is containerized using Docker for easy deployment. A `Dockerfile
 To build and run the application using Docker:
 1. Build the Docker image:
    ```bash
-   docker build -t fastapi-microservice .
+   docker build -t users .
    ```
 2. Run the application:
    ```bash
@@ -41,7 +35,7 @@ To build and run the application using Docker:
 #### **Project Structure**
 The project is organized as follows:
 ```
-fastapi-microservice/
+users/
 ├── app/
 │   ├── main.py          # Application entry point
 │   ├── models.py        # Database models
